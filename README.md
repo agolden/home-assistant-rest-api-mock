@@ -3,13 +3,9 @@ A WireMock simulation of the Home Assistant REST API
 
 This is in **BETA** and is still very much a work-in-progress.
 
-## Building
-docker build -t home-assistant-rest-api-mock .
+## Building, Running, and Pushing
 
-## Running
-docker run -it --rm \
-  -p 8123:8080 \
-  home-assistant-rest-api-mock
+See the Makefile for common tasks associated with working in this repository.
 
 ## Supported use cases
 
