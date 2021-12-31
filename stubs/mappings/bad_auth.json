@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPathPattern": "^((?!/healthcheck).)*$",
+    "headers": {
+      "Authorization": {
+        "doesNotMatch": "^Bearer ABCDEFGH$"
+      }
+    }
+  },
+  "response": {
+      "status": 401
+  }
+}

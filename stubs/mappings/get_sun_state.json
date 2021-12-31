@@ -1,0 +1,15 @@
+{
+  "request": {
+      "method": "GET",
+      "url": "/api/states/sun.sun",
+      "headers": {
+        "Authorization": {
+          "equalTo": "Bearer ABCDEFGH"
+        }
+      }
+  },
+  "response": {
+      "status": 200,
+      "bodyFileName": "sun_state_response.json"
+  }
+}
